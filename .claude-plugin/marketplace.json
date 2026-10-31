@@ -1,0 +1,13 @@
+{
+  "name": "code-anthropology",
+  "owner": {
+    "name": "yangben2019"
+  },
+  "plugins": [
+    {
+      "name": "code-anthropology",
+      "source": "./",
+      "description": "Read a codebase like a culture: give it a personality, name its dynasty, and write its obituary before it is deleted."
+    }
+  ]
+}
