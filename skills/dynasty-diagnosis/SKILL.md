@@ -11,9 +11,9 @@ Diagnose how a codebase is *governed* — where decisions are made, how far orde
 
 ## 语言 Language
 
-用用户提问的语言回答。代码、命令、路径、配置项保持英文。朝代名、治理术语这类**中文语境本身**的概念保留中文（秦/周/唐/宋/明/清），英文读者可同时给出 Empire equivalent。
+用用户提问的语言回答，**小标题也一起翻译**，不要一半中文一半英文。代码、命令、路径、配置项保持英文。朝代名、治理术语这类**中文语境本身**的概念保留中文（秦/周/唐/宋/明/清），英文读者可同时给出 Empire equivalent。
 
-Reply in the language the user wrote in. Keep code, commands and paths in English. The dynasty names are the concept itself — keep them in Chinese and offer the Western empire equivalent for readers who need it.
+Reply in the language the user wrote in, including the section headings. Keep code, commands and paths in English. The dynasty names are the concept itself — keep them in Chinese and offer the Western empire equivalent for readers who need it.
 
 ## 为什么用朝代
 

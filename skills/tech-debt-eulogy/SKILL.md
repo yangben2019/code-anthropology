@@ -9,7 +9,7 @@ Something is about to be deleted. Write its obituary before it goes — so the d
 
 ## Language
 
-Write the obituary in the user's language. Keep code identifiers, file paths and commit hashes as they are. A eulogy written in a language the team does not read is not a record.
+Write the obituary in the user's language. Keep code identifiers, file paths and commit hashes as they are. Translate the template's section headings as well. A eulogy written in a language the team does not read is not a record.
 
 ## 中文说明
 

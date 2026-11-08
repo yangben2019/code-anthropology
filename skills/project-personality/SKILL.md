@@ -9,7 +9,7 @@ Read a repository's habits and give it a personality type — but every trait mu
 
 ## Language
 
-Reply in the language the user wrote in. Keep code, commands, file paths, config keys and product names in English; put the explanation in the user's language. Do not mirror the bilingual description into a bilingual answer — match the user, not the description.
+Reply in the language the user wrote in. Keep code, commands, file paths, config keys and product names in English; put the explanation in the user's language. Translate the output template's section headings too — a Chinese report with "Evidence / Strengths / Risks" headings reads as half-finished. Do not mirror the bilingual description into a bilingual answer — match the user, not the description.
 
 ## 中文说明
 
