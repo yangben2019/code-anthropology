@@ -1,6 +1,6 @@
 ---
 name: tech-debt-eulogy
-description: Write a proper obituary when a feature, module, dependency, or service is deleted or sunset — born and died dates from git history, cause of death, an epitaph, and an inheritance list of what must be salvaged before it disappears. Use when removing code, deprecating a feature, dropping a dependency, retiring a service, or when the user says eulogy, obituary, 悼词, 技术债葬礼, write a farewell for this module, document why this died, or wants a written record before a deletion is irreversible.
+description: Write a proper obituary when a feature, module, dependency, or service is deleted or sunset — born and died dates from git history, cause of death, an epitaph, and an inheritance list of what must be salvaged before it disappears. Use when removing code, deprecating a feature, dropping a dependency, retiring a service, or when the user wants a written record before a deletion is irreversible.
 ---
 
 # Tech Debt Eulogy 技术债葬礼
@@ -10,6 +10,17 @@ Something is about to be deleted. Write its obituary before it goes — so the d
 ## Language
 
 Write the obituary in the user's language. Keep code identifiers, file paths and commit hashes as they are. A eulogy written in a language the team does not read is not a record.
+
+## 中文说明
+
+代码要删了，先写讣告再动手。
+
+1. **从 git 取真实日期**：首次提交、最后提交、提交数、贡献者、增删行数
+2. **判定死因**：被取代 / 无人使用 / 维护成本过高 / 上游死亡 / 安全 / 已合并 / 需求消失
+3. **遗产清单**：值得移植的边界处理、测试、文档、配置——这一步最容易被跳过
+4. **输出**：讣告、墓志铭、遗产表、葬礼清单
+
+规则：日期一律取自 git，不凭记忆；庄重但不煽情；模块还活着就拒绝，改问是否需要弃用计划。
 
 ## Why bother writing this down
 

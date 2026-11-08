@@ -1,6 +1,6 @@
 ---
 name: project-personality
-description: Give a code repository a memorable personality type backed by measured evidence — file sprawl, test density, dependency count, commit rhythm, TODO debt, directory depth, junk-drawer folders. Use when the user asks what kind of project this is, wants a fun or diagnostic read on a codebase, mentions project personality, 项目人格, 代码库体检, repo health check with a twist, or wants to understand a codebase's working style before joining, inheriting, or refactoring it. Prefer this over a plain health score when the user wants the finding to stick in memory.
+description: Give a code repository a memorable personality type backed by measured evidence — file sprawl, test density, dependency count, commit rhythm, TODO debt, directory depth, junk-drawer folders. Use when the user asks what kind of project this is, wants a diagnostic read on a codebase, wants a repo health check with a twist, or wants to understand a codebase's working style before joining, inheriting, or refactoring it. Prefer this over a plain health score when the user wants the finding to stick in memory.
 ---
 
 # Project Personality
@@ -10,6 +10,16 @@ Read a repository's habits and give it a personality type — but every trait mu
 ## Language
 
 Reply in the language the user wrote in. Keep code, commands, file paths, config keys and product names in English; put the explanation in the user's language. Do not mirror the bilingual description into a bilingual answer — match the user, not the description.
+
+## 中文说明
+
+扫描仓库的结构和历史，给一个人格标签，但每条结论必须挂在本会话实测到的数字上。
+
+1. **先量**：文件数、最大文件行数、测试与源码文件比、TODO 数量、`utils`/`common` 这类抽屉目录、提交节奏、作者数
+2. **再归类**：控制狂 / 囤积狂 / 隐士 / 独行侠 / 表演者 / 暴君 / 拆迁户 / 老农 / 游牧者
+3. **最后输出**：人格 + 一句话画像 + 证据表 + 优势 + 风险 + 本周做一件事
+
+规则：每个类型至少三个实测信号；只描述工作风格，不做能力评判；建议只给一条。
 
 ## Why evidence first
 

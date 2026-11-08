@@ -1,6 +1,6 @@
 ---
 name: dynasty-diagnosis
-description: Diagnose a codebase's governance structure as a Chinese dynasty, with a Western empire equivalent for international readers — Qin as a unified monorepo, Zhou as feudal microservices, Tang as an open plugin ecosystem, Song as commercial boom with weak defense, Ming as closed borders with pinned deps, Qing as total isolation. Use when the user wants a memorable read on architecture governance, asks 这个项目像哪个朝代, which dynasty is this codebase, how is this repo governed, monorepo or microservices in one picture, or wants an unusual but evidence-based angle on dependency policy and release cadence.
+description: Diagnose a codebase's governance structure as a Chinese dynasty, with a Western empire equivalent for international readers — Qin as a unified monorepo, Zhou as feudal microservices, Tang as an open plugin ecosystem, Song as commercial boom with weak defense, Ming as closed borders with pinned deps, Qing as total isolation. Use when the user wants a memorable read on architecture governance, monorepo versus microservices in one picture, or an unusual but evidence-based angle on dependency policy and release cadence.
 ---
 
 # Dynasty Diagnosis 朝代诊断
