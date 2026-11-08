@@ -7,6 +7,10 @@ description: Write a proper obituary when a feature, module, dependency, or serv
 
 Something is about to be deleted. Write its obituary before it goes — so the decision is recorded, the useful parts are rescued, and nobody has to guess in two years why it disappeared.
 
+## Language
+
+Write the obituary in the user's language. Keep code identifiers, file paths and commit hashes as they are. A eulogy written in a language the team does not read is not a record.
+
 ## Why bother writing this down
 
 Deletions are the least documented events in a codebase. Additions get PRs, commits, and issues. Removals get a one-line commit message and then the knowledge is gone. Six months later someone asks "why don't we support X anymore" and the answer takes a week of archaeology.

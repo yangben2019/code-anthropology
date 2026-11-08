@@ -7,6 +7,10 @@ description: Give a code repository a memorable personality type backed by measu
 
 Read a repository's habits and give it a personality type — but every trait must trace to a number you measured in this session. The point is not to be cute. It is to make structural facts memorable enough that someone actually acts on them.
 
+## Language
+
+Reply in the language the user wrote in. Keep code, commands, file paths, config keys and product names in English; put the explanation in the user's language. Do not mirror the bilingual description into a bilingual answer — match the user, not the description.
+
 ## Why evidence first
 
 People ignore dashboards and remember stories. A label like "this repo is a hoarder" only helps if the reader can verify it in thirty seconds. So the order is always: **measure → name → point at the proof**. A personality claim with no number behind it is a horoscope, and users can smell the difference.

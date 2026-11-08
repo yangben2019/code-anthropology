@@ -9,6 +9,12 @@ description: Diagnose a codebase's governance structure as a Chinese dynasty, wi
 
 Diagnose how a codebase is *governed* — where decisions are made, how far orders travel, and whether the borders are open. The dynasty is the label; the governance is the finding.
 
+## 语言 Language
+
+用用户提问的语言回答。代码、命令、路径、配置项保持英文。朝代名、治理术语这类**中文语境本身**的概念保留中文（秦/周/唐/宋/明/清），英文读者可同时给出 Empire equivalent。
+
+Reply in the language the user wrote in. Keep code, commands and paths in English. The dynasty names are the concept itself — keep them in Chinese and offer the Western empire equivalent for readers who need it.
+
 ## 为什么用朝代
 
 「单体仓库 vs 微服务」这种讨论往往说了半天还是各说各话，因为它其实是一个**权力结构**问题：谁来决定接口、命令能传多远、边关开不开。朝代是中国人一秒钟就能听懂的权力模型，比架构图更快形成共识。
