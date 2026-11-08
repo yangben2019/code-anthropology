@@ -17,12 +17,6 @@ Three Claude Code skills that turn structural facts about a repository into some
 | **dynasty-diagnosis** | Reads your architecture's *governance* — who decides, how far orders travel, whether the borders are open — and names it as a Chinese dynasty (Qin, Zhou, Tang, Song, Ming, Qing), with a Western empire equivalent. |
 | **tech-debt-eulogy** | When a module is deleted or a service is sunset, writes a real obituary: born/died dates from git, cause of death, epitaph, and an inheritance list of what must be salvaged first. |
 
-### 中文简介
-
-- **项目人格测试** — 量出文件量、测试密度、提交节奏、TODO 债务，给仓库一个可验证的人格。
-- **朝代诊断** — 从治理结构判断这个代码库像哪个朝代：秦=大一统单仓，周=分封微服务，宋=商业繁荣军备废弛，清=闭关锁国不更新依赖。
-- **技术债葬礼** — 功能下线时写讣告、墓志铭和遗产清单，别让删除变成没人记得的决定。
-
 ---
 
 ## Install
@@ -71,7 +65,7 @@ What kind of project is this? Give me its personality.
 ```
 
 ```text
-这个项目像哪个朝代？
+Which dynasty is this codebase?
 ```
 
 ```text
